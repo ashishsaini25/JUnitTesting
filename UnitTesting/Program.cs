@@ -14,7 +14,7 @@ namespace UnitTesting
             while (flag)
             {
                 Console.WriteLine("Enter 1 To Coin Change Problem\n"+"Enter 2 to DayOfWeek\n"+"Enter 3 for Tempretaure conversion\n"
-                    +"Enter 4 to convert decimal into binary\n");
+                    +"Enter 4 to convert decimal into binary\n"+"Enter 5 To Swap Nibbles\n");
                 int n=Convert.ToInt32(Console.ReadLine());
                 switch(n){
                     case 1:
@@ -31,6 +31,10 @@ namespace UnitTesting
                     case 4:
                         DecimalToBinary binary = new DecimalToBinary();
                         binary.Print();
+                        break;
+                    case 5:
+                        SwapNibbles swapNibbles = new SwapNibbles();
+                        swapNibbles.Swap();
                         break;
                 }
             }

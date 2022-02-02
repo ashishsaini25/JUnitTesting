@@ -48,6 +48,7 @@
     <Compile Include="DecimalToBinary.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SwapNibbles.cs" />
     <Compile Include="TemperatureConversion.cs" />
   </ItemGroup>
   <ItemGroup>
